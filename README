@@ -1,0 +1,28 @@
+Jenkins OTP: cd920a2e578e474e8d57932454656cc8
+
+minikube service jenkins-service -n devops-tools
+
+kubectl get deployments -n devops-tools
+
+kubectl get services -n devops-tools
+
+kubectl cluster-info
+
+kubectl get pods -n devops-tools | grep jenkins
+
+kubectl describe pod -n devops-tools <POD-NAME>
+
+Jenkins URL: http://192.168.49.2:32000
+
+Jenkins Tunnel: 192.168.49.2:30167
+
+jnlp port in service.yaml was missing bro!!!!
+
+minikube ssh
+
+USERNAME: AWS
+PASSWORD: aws ecr get-login-password --region us-east-1    
+
+~/.aws/credentials
+
+Docker Tool Install in Tools
