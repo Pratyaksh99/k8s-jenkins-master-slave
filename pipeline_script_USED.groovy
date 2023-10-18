@@ -1,6 +1,14 @@
 pipeline {
   agent any
   stages {
+    //Clone Repo
+    stage('Clone Repo') {
+      steps {
+        container('maven') {
+          git branch: 'main', changelog: false, poll: false, url: 'https://github.com/Pratyaksh99/k8s-jenkins-master-slave.git'
+        }
+      }
+    }  
     // Building Docker Image
     stage('Building Docker Image') {
       steps {
@@ -26,4 +34,3 @@ pipeline {
     }
   }
 }
-
