@@ -1,5 +1,12 @@
 // Commands and Imp Info.
 
+NEXT STEPS:
+- Deploy Jenkins to the EKS Cluster, bye bye minikube.
+- How can we limit the number of agent pods coming up?
+- Shared workspace bw all pods? Persistent Volume, EFS, EBS.....
+- What if the master pod goes down, will we loose the configurations???
+
+
 Jenkins OTP: cd920a2e578e474e8d57932454656cc8
 
 minikube service jenkins-service -n devops-tools
