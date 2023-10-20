@@ -35,3 +35,15 @@ PASSWORD: aws ecr get-login-password --region us-east-1
 ~/.aws/credentials
 
 Docker Tool Install in Tools
+
+kubectl exec -it pod_name -c container_name bash // To access a pod
+
+Links:
+
+https://www.jenkins.io/doc/book/scaling/scaling-jenkins-on-kubernetes/#deploy-jenkins-controller
+https://www.jenkins.io/doc/book/installing/kubernetes/#install-jenkins-with-yaml-files
+https://github.com/scriptcamp/kubernetes-jenkins/blob/main/deployment.yaml
+https://kubernetes.io/docs/reference/kubectl/cheatsheet/
+https://blog.thecloudside.com/docker-in-docker-with-jenkins-pod-on-kubernetes-f2b9877936f2
+
+https://spacelift.io/blog/kubernetes-persistent-volumes
